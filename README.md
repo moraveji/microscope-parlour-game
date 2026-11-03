@@ -4,7 +4,7 @@
 
 A microscope is full of possibilities, but “let’s look at something” can run out of steam. Give your party a reason to gather around it: a clue to follow, something surprising to discover, and a little friendly competition.
 
-**Microscope Parlour Game** is a parlour game that makes it fun for your party to use your microscope. Teams collect simple specimens, take turns looking closer, snap photos, and answer questions. Everyone leaves with a photo scrapbook of the tiny world they explored together.
+**Microscope Parlour Game** is an unofficial **The Amazing Digital Circus (TADC)-themed** parlour game that makes it fun for your party to use your microscope. Teams collect simple specimens, take turns looking closer, snap photos, and answer questions. Everyone leaves with a photo scrapbook of the tiny world they explored together.
 
 The included game has four teams and 16 missions. Play it at a birthday, with friends, or around the kitchen table. An adult hosts and prepares safe samples; discovery matters more than speed.
 
