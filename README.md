@@ -1,8 +1,22 @@
-# Microscopic Madness
+# Microscope Parlour Game
 
-Turn a microscope into a discovery game: four teams, 16 specimen missions, live camera photos, quiz questions, points, and downloadable photo scrapbooks. Built for a birthday party; adaptable for families and classrooms.
+**Do you have kids or fun friends? Got a microscope collecting dust?**
 
-Runs locally, with no account, backend, analytics, or package installation. Photos and progress stay in the browser’s IndexedDB. The app can work offline after its files have cached, while the local server stays running.
+A microscope is full of possibilities, but “let’s look at something” can run out of steam. Give your party a reason to gather around it: a clue to follow, something surprising to discover, and a little friendly competition.
+
+**Microscope Parlour Game** is a parlour game that makes it fun for your party to use your microscope. Teams collect simple specimens, take turns looking closer, snap photos, and answer questions. Everyone leaves with a photo scrapbook of the tiny world they explored together.
+
+The included game has four teams and 16 missions. Play it at a birthday, with friends, or around the kitchen table. An adult hosts and prepares safe samples; discovery matters more than speed.
+
+## A keepsake from your party
+
+Each team can download a high-resolution PNG scrapbook to print or share, with its microscope photos, discoveries, and score. Here’s an example from the original party version; the team photo and personal birthday details have been redacted. This example retains the original game’s title and theme.
+
+<a href="docs/images/example-scrapbook-redacted.png"><img src="docs/images/example-scrapbook-redacted.png" alt="Example party scrapbook with four microscope specimen photos; team photo and birthday details redacted" width="460"></a>
+
+## What you need
+
+A computer with Google Chrome and Python 3, a microscope that Chrome can use as a camera, a few safe specimens, and some curious people. Everything runs locally: no account or uploads, and photos stay in your browser. Once the files are cached, you can play without Wi-Fi while the local server stays running.
 
 ## Quick start
 
@@ -13,6 +27,19 @@ python3 server.py --no-open
 ```
 
 Open **http://localhost:8765** in Chrome. On Windows, use `py -3 server.py --no-open` if `python3` is unavailable. The optional **Launch Party.command** shortcut opens Chrome on macOS. Do not open `index.html` directly.
+
+## Microscope options
+
+Already have one? Try it in practice mode first. The key is whether it appears in Chrome’s camera selector—not its brand or the magnification on the box.
+
+These are **candidates based on manufacturer documentation**, not models tested with this game. Confirm compatibility with your computer and try a real capture before your party.
+
+| | Microscope | Why it is a candidate |
+| --- | --- | --- |
+| <a href="https://plugable.com/products/usb2-micro-250x"><img src="https://plugable.com/cdn/shop/files/main-max_75f86d7a-dba9-43a1-ae62-914bec4418b0.jpg?width=400" alt="Plugable USB microscope with observation stand" width="180"></a> | **[Plugable USB2-MICRO-250X](https://plugable.com/products/usb2-micro-250x)** — a straightforward option for a party | Plugable documents a webcam chipset, standard webcam software support, built-in lighting, and an included stand. [Manufacturer details](https://plugable.com/products/usb2-micro-250x). |
+| <a href="https://www.dinolite.us/products/usb-microscopes/af7515mztl/"><img src="https://www.dinolite.us/wp-content/uploads/AF7x15.jpg" alt="Dino-Lite AF7x15 microscope family manufacturer photo" width="180"></a> | **[Dino-Lite AF7515MZTL](https://www.dinolite.us/products/usb-microscopes/af7515mztl/)** — a higher-end option if you already own one | Dino-Lite lists USB 2.0 and UVC imaging, plus Windows/macOS support. Use the wired USB connection; its optional Wi-Fi module is not integrated with the game. Advanced vendor features are not controlled by the game. [Manufacturer specifications](https://www.dinolite.us/products/usb-microscopes/af7515mztl/). |
+
+Product photos are served from the manufacturers’ websites, link to their product pages, and remain their respective owners’ property. The Dino-Lite photo shows the model family. Links are not affiliate links. A basic compatible USB microscope is enough; premium equipment is optional.
 
 ## Compatible microscopes
 

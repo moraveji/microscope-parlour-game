@@ -21,7 +21,7 @@ def party_is_running():
         connection.request('GET', '/')
         response = connection.getresponse()
         content = response.read(65536)
-        return response.status == 200 and b'Microscopic Madness</title>' in content and b'id="app"' in content
+        return response.status == 200 and b'Microscope Parlour Game</title>' in content and b'id="app"' in content
     except (OSError, ValueError, HTTPException):
         return False
     finally:
@@ -50,7 +50,7 @@ def main():
             print('Another app is using port 8765. Close that app’s server and launch again.\n'
                   'This launcher has not stopped it or changed your saved party data.')
         return 1
-    print(f'Microscopic Madness: {URL}\nKeep this window open during the party. Press Control+C to stop.', flush=True)
+    print(f'Microscope Parlour Game: {URL}\nKeep this window open during the party. Press Control+C to stop.', flush=True)
     if not args.no_open:
         open_chrome()
     try:

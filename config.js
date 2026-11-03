@@ -1,7 +1,7 @@
 'use strict';
 window.GAME = {
-  "title": "Microscopic Madness Discovery Party",
-  "subtitle": "The Amazing Digital Circus: Microscopic Madness",
+  "title": "Microscope Parlour Game",
+  "subtitle": "The Amazing Digital Circus: Microscope Parlour Game",
   "teams": 4,
   "missions_per_team": 4,
   "allow_custom_team_names": true,
