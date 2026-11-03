@@ -8,6 +8,31 @@ A microscope is full of possibilities, but “let’s look at something” can r
 
 The included game has four teams and 16 missions. Play it at a birthday, with friends, or around the kitchen table. An adult hosts and prepares safe samples; discovery matters more than speed.
 
+## See it in the browser
+
+The clue and microscope image sit side by side in the web app. Choose your camera, focus the specimen, and capture a photo without leaving Chrome.
+
+![Actual app: a specimen image in the browser camera panel beside its collection clue](docs/images/product-microscope-browser.png)
+
+*Screenshot of the running app. The camera panel uses a labeled demo feed made from the example specimen photo; no physical microscope was connected for these screenshots. With a compatible microscope connected, this same panel shows its live camera feed.*
+
+<details>
+<summary>Team lobby and the photo-to-quiz flow</summary>
+
+### Choose a team
+
+Four teams have their own mission sequence, name, score, and progress.
+
+![Actual app: team lobby with four teams and their mission progress](docs/images/product-team-lobby.png)
+
+### Capture, then answer
+
+Taking a specimen photo saves it to the team scrapbook, earns discovery points, and unlocks the multiple-choice question below.
+
+![Actual app: a captured specimen photo saved to the scrapbook and the quiz answer buttons unlocked](docs/images/product-photo-and-quiz.png)
+
+</details>
+
 ## A keepsake from your party
 
 Each team can download a high-resolution PNG scrapbook to print or share, with its microscope photos, discoveries, and score. Here’s an example from the original party version; the team photo and personal birthday details have been redacted. This example retains the original game’s title and theme.
